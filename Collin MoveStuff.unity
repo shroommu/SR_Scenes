@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1003,10 +1003,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2052357037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f958270ddc31a49a6b9860a8a4b651, type: 3}
+  m_Script: {fileID: 11500000, guid: 89937739891060f46aeb98b194833b26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anims: {fileID: 0}
+  anims: {fileID: 2052357040}
   characterCam: {fileID: 35195617}
   slopeAngle: 45
   moveSpeed: 10
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   rbVelocity: {x: 0, y: 0, z: 0}
   mouseRotY: 0
   mouseRotX: 0
-  sensitivity: 1
+  sensitivity: 5
 --- !u!54 &2052357039
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1046,7 +1046,7 @@ Animator:
   m_GameObject: {fileID: 2052357037}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 628f85c0d69fa684bb2f0716334eb792, type: 2}
+  m_Controller: {fileID: 9100000, guid: 53b163694543d5944afe666145285abf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  baseKnockbackFactor: 0
+  elementManager: {fileID: 0}
 --- !u!136 &2052357042
 CapsuleCollider:
   m_ObjectHideFlags: 0
