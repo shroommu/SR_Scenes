@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1063,7 +1063,6 @@ GameObject:
   - component: {fileID: 200947226}
   - component: {fileID: 200947225}
   - component: {fileID: 200947224}
-  - component: {fileID: 200947227}
   m_Layer: 5
   m_Name: PlayBtn
   m_TagString: Untagged
@@ -1153,17 +1152,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 200947227}
-        m_MethodName: Load
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &200947225
@@ -1201,18 +1189,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 200947222}
---- !u!114 &200947227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 200947222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52fb5b61c2258f479a279fcba702333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: ChrystelYellowStone
 --- !u!1 &221839119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,7 +1590,7 @@ Prefab:
       objectReference: {fileID: 1097222019}
     - target: {fileID: 1028707660955392, guid: ec4b0c3bbeb381d42a47bf8f691411aa, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec4b0c3bbeb381d42a47bf8f691411aa, type: 2}
@@ -1985,7 +1961,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1763452674522762, guid: 6dfee0ef3461b6b418b5decc991f5013, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6dfee0ef3461b6b418b5decc991f5013, type: 2}
@@ -3839,7 +3815,7 @@ Prefab:
       objectReference: {fileID: 1016715789}
     - target: {fileID: 1055004026722998, guid: 7b6e14e41b68a144690bc3a8fc3f60d0, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b6e14e41b68a144690bc3a8fc3f60d0, type: 2}
@@ -4824,7 +4800,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1915334600764330, guid: b7a358592c3390a4f896293f8ac19c2c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b7a358592c3390a4f896293f8ac19c2c, type: 2}
@@ -4844,7 +4820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &958364321
 Light:
   m_ObjectHideFlags: 0
@@ -7418,7 +7394,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
@@ -7796,7 +7772,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1496893323983866, guid: 6512db34dd093f44cbc6373afebe3066, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6512db34dd093f44cbc6373afebe3066, type: 2}
@@ -8756,7 +8732,7 @@ Prefab:
       objectReference: {fileID: 1255514469}
     - target: {fileID: 1329413728560336, guid: e0647faa90eb77744866ffc9f237d9a4, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0647faa90eb77744866ffc9f237d9a4, type: 2}
@@ -11965,7 +11941,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2106715104
 MonoBehaviour:
   m_ObjectHideFlags: 0
